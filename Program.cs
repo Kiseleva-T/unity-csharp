@@ -26,15 +26,15 @@ namespace ConsoleApp1
                               pointsIT,
                               pointsMaths,
                               pointsPhysics);
-            Console.ReadLine();
+            Console.ReadKey();
 
             float sumPoints = pointsIT + pointsMaths + pointsPhysics;
             Console.WriteLine($"Общая сумма баллов: {sumPoints}");
-            Console.ReadLine();
+            Console.ReadKey();
 
             float meanPoints = sumPoints / 3;
             Console.WriteLine($"Средний балл {meanPoints}");
-            Console.ReadLine();
+            Console.ReadKey();
 
         }
     }
